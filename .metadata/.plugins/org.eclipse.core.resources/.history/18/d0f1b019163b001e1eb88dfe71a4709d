@@ -1,0 +1,18 @@
+package exemplo_pacotes;
+
+	public class ComputadorPedrinho {
+		public static void main(String[] args) {
+			MSNMessenger msn = new MSNMessenger();
+			msn.enviarMensagem();
+			msn.receberMensagem();
+			
+			FacebookMessenger fcb = new FacebookMessenger();
+			msn.enviarMensagem();
+			msn.receberMensagem();
+			
+			TelegramMessenger telegram = new TelegramMessenger();
+			msn.enviarMensagem();
+			msn.receberMensagem();
+			
+		}
+	}
