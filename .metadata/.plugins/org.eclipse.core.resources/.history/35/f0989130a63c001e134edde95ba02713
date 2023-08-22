@@ -1,0 +1,7 @@
+package exemplo_pacotes;
+
+public class Digitalizadora {
+	public void digitalizar() {
+		System.out.println("DIGITALIZANDO");
+	}
+}

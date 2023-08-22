@@ -1,0 +1,7 @@
+package exemplo_pacotes;
+
+import equipamentos.impressora.Impressora;
+
+public class EquipamentoMultifuncional extends Impressora, Copiadora, Digitalizadora{
+
+}
